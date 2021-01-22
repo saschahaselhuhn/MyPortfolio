@@ -1,9 +1,11 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
 
-$body-bg: #ddd;
-$body-color: #222;
-$primary: hotpink;
+$body-bg: #01010b;
+$body-color: rgb(255, 255, 255);
+$primary: #f95353;
+$secondary: #ffffff;
+
 $font-family-base: Arial;
 
 // Include all Bootstrap
@@ -22,4 +24,55 @@ $font-family-base: Arial;
   );
   color: #fff;
   padding: 0.5em;
+}
+
+.socialrow {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.socialrow h1 {
+  margin-bottom: 30px;
+}
+
+.img-thumbnail {
+  border-style: none;
+}
+
+.MyBodyFirst {
+  margin-top: -56px;
+}
+
+.card {
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.mylogo {
+  transition: transform 0.5s;
+}
+
+.mylogo:hover {
+  transform: rotate(8deg) scale(1.1);
+}
+
+.card-img-top {
+  transition: transform 0.5s;
+}
+
+.card-img-top:hover {
+  transform: scale(0.8);
+}
+
+.btn {
+  transition: transform 0.5s;
+}
+
+.btn:hover {
+  transform: scale(1.3);
+}
+
+.fische {
+  width: 300px;
 }
