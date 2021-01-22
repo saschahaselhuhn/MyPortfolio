@@ -10,6 +10,178 @@
     <title>Hello, world!</title>
   </head>
   <body>
+    <!--header area-->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text-primary" href="#">Sascha Haselhuhn</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Disabled</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-success btn-secondary"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--MyBody-->
+
+    <!--first row-->
+    <article class="MyBodyFirst row">
+      <div
+        class="col-12 col-md-6 col-xxl-6 min-vh-100 d-flex flex-wrap align-items-center"
+      >
+        <img
+          class="mx-auto d-block myimage"
+          src="public/Sascha_haselhuhn_img.png"
+          alt="Sascha Haselhuhn"
+        />
+      </div>
+      <div
+        class="col-12 col-md-6 col-xxl-6 min-vh-100 d-flex flex-wrap align-items-center"
+      >
+        <img
+          class="mx-auto d-block mylogo"
+          src="public/SaschaHaselhuhn_logo.png"
+          alt="Sascha Haselhuhn"
+        />
+      </div>
+    </article>
+
+    <!--second row-->
+    <div class="row socialrow bg-secondary d-flex justify-content-center">
+      <h1 class="text-primary">SOCIAL MEDIA</h1>
+      <div class="col-12 col-md-6 col-xxl-3 d-flex justify-content-center">
+        <div class="card bg-primary" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/facebook-square-social-media-512.png"
+            alt="facebook"
+          />
+          <div class="card-body">
+            <h5 class="card-title">facebook</h5>
+            <p class="card-text">LOOKING FOR NEWS? CHECK MY FB PAGE!</p>
+            <a href="#" class="btn btn-secondary">Give a like</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-xxl-3 d-flex justify-content-center">
+        <div class="card bg-primary" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/linkedin-square-social-media-512.png"
+            alt="linked in"
+          />
+          <div class="card-body">
+            <h5 class="card-title">linked in</h5>
+            <p class="card-text">NETWORKING? CHECK MY PROFILE!</p>
+            <a href="#" class="btn btn-secondary">Profile</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-xxl-3 d-flex justify-content-center">
+        <div class="card bg-primary" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/wordpress-square-social-media-512.png"
+            alt="wordpress"
+          />
+          <div class="card-body">
+            <h5 class="card-title">wordpress</h5>
+            <p class="card-text">MORE INFORMATION? VISIT ME!</p>
+            <a href="#" class="btn btn-secondary">Visit me</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-xxl-3 d-flex justify-content-center">
+        <div class="card bg-primary" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/mail-square-social-media-512.png"
+            alt="eMail"
+          />
+          <div class="card-body">
+            <h5 class="card-title">email</h5>
+            <p class="card-text">QUESTIONS? WRITE ME!</p>
+            <a href="#" class="btn btn-secondary">Send mail</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--third row-->
+
+    <main class="pt-5 text-center">
+      <img
+        class="fische img-thumbnail rounded-circle bg-light"
+        src="public/neuefischelogo.jpg"
+        alt="Professor Meow"
+      />
+      <p class="mt-3">
+        Greetings <span class="text-primary">students</span>! It smells like
+        <span class="fancy">new fishes</span> 🐟 in here.
+      </p>
+    </main>
+    <!--body area-->
     <main class="pt-5 text-center">
       <img
         class="img-thumbnail rounded-circle bg-light"
@@ -21,5 +193,7 @@
         <span class="fancy">new fishes</span> 🐟 in here.
       </p>
     </main>
+
+    <!--footer area-->
   </body>
 </html>
