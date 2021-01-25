@@ -117,3 +117,12 @@ $font-family-base: Arial;
     text-align: center;
   }
 }
+.socialicons {
+  font-size: 15rem;
+  transition: transform 0.5s;
+}
+
+.socialicons:hover {
+  font-size: 15rem;
+  transform: scale(0.8);
+}
